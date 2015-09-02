@@ -1,0 +1,9 @@
+flags:
+  hakyll:
+    watchserver: true
+    previewserver: true
+    checkexternal: true
+packages:
+- '.'
+extra-deps: []
+resolver: lts-3.0

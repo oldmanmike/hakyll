@@ -9,3 +9,10 @@ Hakyll is a static site generator library in Haskell. More information
 You can install this library using cabal:
 
     cabal install hakyll
+
+Or by using [stack](https://www.stackage.org):
+
+    stack init
+    stack install
+
+For stack, if you encounter [this issue](https://github.com/commercialhaskell/stack/issues/823) then you'll need to make sure your build of stack is recent enough to have its fix, [603c791](https://github.com/commercialhaskell/stack/commit/603c7916d02c7c7a17478a0b6c19870293f2173e).
